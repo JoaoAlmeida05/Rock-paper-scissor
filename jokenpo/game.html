@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAY</title>
+    <script src="jokenpo.js"></script>
+    <link rel="stylesheet" href="jokenpo.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="tut">
+        <span><a href="tutorial.png" target="_blank" class="tutorial"><span>Tutorial</span></a></span>
+        <br>
+        <span><a href="https://www.youtube.com/watch?v=4-ayvPYTNtk" target="_blank" class="tutorial">Video</a></span>
+    
+    </div>
+    <div id="but">
+        <input type="button" value="Paper" class="btn" onclick="get_num0(), playing(), bet(), playing1(), score(), shw_scr() ">
+        <input type="button" value="Rock" class="btn" onclick="get_num1(), playing(), bet(), playing1(), score(), shw_scr() ">
+        <input type="button" value="Scissor" class="btn" onclick="get_num2(), playing(), bet(), playing1(), score(), shw_scr()">
+    </div>
+
+    <div class="myDiv">
+        <img src="paper.jpg" alt="Paper" class="option">
+        <img src="pedra.webp" alt="Rock" class="option">
+        <img src="tesoura.jpg" alt="Scissor" class="option">
+    </div>
+    <br>
+    <img src="branco.png" alt="White image" class="white" id="um">
+    <img src="x.png" alt="X" id="x">
+    <img src="branco.png" alt="White image" class="white" id="white">
+    <br>
+    <div id="last"><h4>SCORE</h4></div>
+</body>
+</html>
